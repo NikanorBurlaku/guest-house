@@ -93,18 +93,34 @@ color: #52503B;
     width: 100%;
     height: 41.67vw;
 }
+.sleep-place{
+    margin-top: -6px;
+}
+.sleep-title,
 .sleep-place {
     display: flex;
     flex-direction: column;
-}
-.sleep-title {
+    align-items: center;
+    background: #FAF8F0;
 }
 .sleep-head {
+    margin-top: 9.6vw;
+    text-align: center;
+    font-size: 2.2vw;
+    line-height: 2.5vw;
 }
 .sleep-text {
+    color: #52503B;
+    width: 50%;
+    text-align: center;
+    line-height: 1.7vw;
+    margin-top: 1vw;
 }
 .sleep-block {
     display: flex;
+    margin: 2vw 0 7vw;
+    width: 80%;
+    gap: 5%;
 }
 .sleep-body {
     display: flex;
@@ -112,9 +128,20 @@ color: #52503B;
     align-items: center;
 }
 .sleep {
+    width: 10%;
+    height: 3.3vw;
+}
+.bathroom{
+    width: 15%;
 }
 .body-title {
+    color: #52503B;
+    margin-top: 0.83vw;
+    line-height: 1.7vw;
+    font-size: 1.1vw;
 }
 .body-text { 
     text-align: center;
+    color: #52503B;
+    font-size: 0.97vw;
 }
